@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formulario de inicio </title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" 
+    crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.6.1.js" 
+    integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" 
+    crossorigin="anonymous"></script>
+   <script type="text/javascript" src="js/form.js"> </script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" 
+   integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" 
+   crossorigin="anonymous"></script>
+   
+</head>
+<body>
+	
+		
+        <div class="bg-success p-2 text-white"><h2>INICIAR SESION</h2></div>
+        <div class="bg-success p-2" style="--bs-bg-opacity: .5;"><h5>ingrese su informacion de inicio de sesion</h5></div>
+        
+     <div class="container"  > <img src="img/fondoBanco.jpg" alt="fondo de usuario de portales bancarios" id="fondo">
+
+      <div class="col-lg-8
+      m-auto d-block">
+       <form>
+        <div class="form-group">
+         <label for="user">
+          Nombre de usuario:
+         </label>
+         <input type="text" name="username" id="usernames" class="form-control">
+         <h6 id="usercheck" style="color: red;">
+          **Ingrese un nombre de usuario
+         </h6>
+        </div>
+        
+        <div class="form-group">
+         <label for="user">
+          Email:
+         </label>
+         <input type="email" name="email" id="email" required class="form-control">
+         <small id="emailvalid" class="form-text
+        text-muted invalid-feedback">
+          Ingrese una dirección de correo válida
+         </small>
+        </div>
+    
+        <div class="form-group">
+         <label for="password">
+          Contraseña:
+         </label>
+         <input type="password" name="pass" id="password" class="form-control">
+         <h6 id="passcheck" style="color: red;">
+          **Por favor complete la contraseña
+         </h6>
+        </div>
+    
+        <div class="form-group">
+         <label for="conpassword">
+          Confirme contraseña:
+         </label>
+         <input type="password" name="username" id="conpassword" class="form-control">
+         <h6 id="conpasscheck" style="color: red;">
+          **La contraseña no coincide
+         </h6>
+        </div>
+          <br>
+        <input type="submit" id="submitbtn" value="Enviar" class="btn btn-primary">
+      
+      
+     
+       </br>
+
+       
+      </form>
+      </div>
+     </div>
+    
+   
+ 
+    
+
+</script>         
+
+</body>
+
+
+</html>

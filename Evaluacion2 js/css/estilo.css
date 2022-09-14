@@ -1,0 +1,28 @@
+body{
+    
+    font-family: Calibri;
+    padding: 10px 20px;
+}
+
+h1 {
+	color: #FFFFFF;
+	background-color: #ffbd33;
+	padding: 10px;
+	border-radius:0 20px;
+}
+
+p{
+	color: rgb(179, 28, 53);
+	font-weight: bolder;
+	padding-left: 20px;
+}
+
+h2{
+	width: 500px;
+	height: 30px;
+	padding-left: 10px;	
+	color: #FFFFFF;
+	background-color:  #ffbd33;
+
+	
+}

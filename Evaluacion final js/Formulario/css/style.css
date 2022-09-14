@@ -1,0 +1,43 @@
+body{
+   
+      width: 800px;
+      height: 100px
+    
+}
+#fondo{
+    width: 800px;
+    height: 400px;
+    box-shadow: 0px 0px 21px 14px rgba(36, 37, 36, 0.651);
+   
+    
+   
+}
+
+form{
+    
+    transform: translate(-40px, -350px);
+  
+    
+}
+
+h2{
+    width: 800px;
+    text-align: center;
+
+}
+
+h5{
+    text-align: center;
+}
+#submitbtn{
+    background-color: rgb(7, 124, 7);
+    border-color: rgb(7, 124, 7) ;
+    transition: box-shadow 300ms ease-out;
+    
+}
+
+
+#submitbtn:hover {
+    box-shadow: inset 132px 0px 0px 0px rgba(144, 187, 155, 0.829);}
+
+

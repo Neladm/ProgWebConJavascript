@@ -1,0 +1,46 @@
+body{
+    
+    font-family: Calibri;
+    padding: 10px 20px;
+}
+
+h1 {
+	color: green;
+	background-color: #3ac504;
+	padding: 10px;
+	border-radius:0 20px;
+}
+
+
+#pelis { 
+	width: 500px;
+	height: 300px;
+	background-color:  rgb(30, 236, 168);
+	border-radius:0 20px;
+	box-shadow: inset 0px 0px 34px 0px rgba(28, 82, 92, 0.73);
+}
+
+ol{
+	color: black;
+	font-weight: bolder;
+}
+
+h2{
+  color: green;
+  margin-left: 10px;
+
+}
+
+#operaciones{
+	width: 500px;
+	height: 300px;
+	background-color:  rgb(30, 236, 168);
+	border-radius:0 20px;
+	transform: translate(790px, -320px) ;
+	box-shadow: inset 0px 0px 34px 0px rgba(28, 82, 92, 0.73);
+}
+
+ul{
+	color: black;
+	font-weight: bolder;
+}
